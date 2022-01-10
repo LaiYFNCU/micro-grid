@@ -27,8 +27,7 @@ namespace ModbusLib
         /// </summary>
         /// <param name="port"></param>
         /// <returns></returns>
-        public static ICommClient GetClient(
-            this Socket port)
+        public static ICommClient GetClient(this Socket port)
         {
             return new IpClient(port);
         }

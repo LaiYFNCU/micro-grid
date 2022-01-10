@@ -150,6 +150,7 @@ namespace ModbusMaster
 
             try
             {
+                //关键步骤
                 var command = new ModbusCommand(function) {Offset = StartAddress, Count = DataLength, TransId = _transactionId++};
                 var result = _driver.ExecuteGeneric(_portClient, command);
                 if (result.Status == CommResponse.Ack)

@@ -1,0 +1,9 @@
+﻿<prism:PrismApplication x:Class="微电网监控.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	     xmlns:prism="http://prismlibrary.com/"
+             xmlns:local="clr-namespace:微电网监控">
+    <Application.Resources>
+         
+    </Application.Resources>
+</prism:PrismApplication>
